@@ -1,0 +1,29 @@
+Please cite: http://www.fit.vutbr.cz/research/groups/speech/publi/2014/anguera_sltu2014_p24_31.pdf
+-------------------------------------------------------------------------------
+Data structure
+-------------------------------------------------------------------------------
+
+- queries:    queries used when searching
+- content:    content searched
+
+data:
+  Audio                      audio content: 10 762  .wav files
+  dev_queries                Unique development audio queries: 505 .wav files
+ 							 							 Total development audio queries: 1 551 .wav files
+  eval_queries               Unique evaluation audio queries: 503 .wav files
+							 							 Total evaluation audio queries: 1 540 .wav files
+														 (will be released on July 1st)
+  .                          rttm, ecf.xml, tlist.xml and language mapping 
+                             (is released together with the scoring scripts)
+                             (info) files
+
+-------------------------------------------------------------------------------
+Notes:
+
+* Some of the queries in the development set and evaluation set might overlap. 
+
+* There might be overlap between the speakers in the development queries, the
+  evaluation queries or the audio to be searched.
+
+-------------------------------------------------------------------------------
+
